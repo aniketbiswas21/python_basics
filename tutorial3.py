@@ -1,14 +1,6 @@
-game = [[0, 0, 0],
-       [0, 0, 0],
-       [0, 0, 0],]              #list
+programming_languages = "Python", "Java", "C++"    # tuple
 
-print('     a  b  c')
+print(type(programming_languages))
 
-def game_board():
-    for count, row in enumerate(game):
-        print(count, row)
-    # for item in row:
-    #     print(item)
-game[0][1] = 1
-
-game_board()
+for i in programming_languages:
+    print(i)
